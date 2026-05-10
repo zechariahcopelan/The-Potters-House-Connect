@@ -48,9 +48,6 @@ function LoginPage() {
             </div>
             {err && <p className="text-sm text-destructive">{err}</p>}
             <Button type="submit" className="w-full">Sign in</Button>
-            <p className="text-xs text-muted-foreground text-center">
-              Default credentials: <span className="font-mono">admin / pottershouse</span>
-            </p>
           </form>
         </CardContent>
       </Card>
